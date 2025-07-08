@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DC776CA02E1D8C4E007A8607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC776C872E1D8C4D007A8607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC776C8E2E1D8C4D007A8607;
+			remoteInfo = RustFfiExample;
+		};
+		DC776CAA2E1D8C4E007A8607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC776C872E1D8C4D007A8607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC776C8E2E1D8C4D007A8607;
+			remoteInfo = RustFfiExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC776C8F2E1D8C4D007A8607 /* RustFfiExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RustFfiExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC776C9F2E1D8C4E007A8607 /* RustFfiExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustFfiExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC776CA92E1D8C4E007A8607 /* RustFfiExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustFfiExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC776C912E1D8C4D007A8607 /* RustFfiExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RustFfiExample;
+			sourceTree = "<group>";
+		};
+		DC776CA22E1D8C4E007A8607 /* RustFfiExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RustFfiExampleTests;
+			sourceTree = "<group>";
+		};
+		DC776CAC2E1D8C4E007A8607 /* RustFfiExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RustFfiExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC776C8C2E1D8C4D007A8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776C9C2E1D8C4E007A8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776CA62E1D8C4E007A8607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC776C862E1D8C4D007A8607 = {
+			isa = PBXGroup;
+			children = (
+				DC776C912E1D8C4D007A8607 /* RustFfiExample */,
+				DC776CA22E1D8C4E007A8607 /* RustFfiExampleTests */,
+				DC776CAC2E1D8C4E007A8607 /* RustFfiExampleUITests */,
+				DC776C902E1D8C4D007A8607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC776C902E1D8C4D007A8607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC776C8F2E1D8C4D007A8607 /* RustFfiExample.app */,
+				DC776C9F2E1D8C4E007A8607 /* RustFfiExampleTests.xctest */,
+				DC776CA92E1D8C4E007A8607 /* RustFfiExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC776C8E2E1D8C4D007A8607 /* RustFfiExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC776CB32E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExample" */;
+			buildPhases = (
+				DC776C8B2E1D8C4D007A8607 /* Sources */,
+				DC776C8C2E1D8C4D007A8607 /* Frameworks */,
+				DC776C8D2E1D8C4D007A8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC776C912E1D8C4D007A8607 /* RustFfiExample */,
+			);
+			name = RustFfiExample;
+			packageProductDependencies = (
+			);
+			productName = RustFfiExample;
+			productReference = DC776C8F2E1D8C4D007A8607 /* RustFfiExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC776C9E2E1D8C4E007A8607 /* RustFfiExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC776CB62E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExampleTests" */;
+			buildPhases = (
+				DC776C9B2E1D8C4E007A8607 /* Sources */,
+				DC776C9C2E1D8C4E007A8607 /* Frameworks */,
+				DC776C9D2E1D8C4E007A8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC776CA12E1D8C4E007A8607 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC776CA22E1D8C4E007A8607 /* RustFfiExampleTests */,
+			);
+			name = RustFfiExampleTests;
+			packageProductDependencies = (
+			);
+			productName = RustFfiExampleTests;
+			productReference = DC776C9F2E1D8C4E007A8607 /* RustFfiExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC776CA82E1D8C4E007A8607 /* RustFfiExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC776CB92E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExampleUITests" */;
+			buildPhases = (
+				DC776CA52E1D8C4E007A8607 /* Sources */,
+				DC776CA62E1D8C4E007A8607 /* Frameworks */,
+				DC776CA72E1D8C4E007A8607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC776CAB2E1D8C4E007A8607 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC776CAC2E1D8C4E007A8607 /* RustFfiExampleUITests */,
+			);
+			name = RustFfiExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = RustFfiExampleUITests;
+			productReference = DC776CA92E1D8C4E007A8607 /* RustFfiExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC776C872E1D8C4D007A8607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DC776C8E2E1D8C4D007A8607 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DC776C9E2E1D8C4E007A8607 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DC776C8E2E1D8C4D007A8607;
+					};
+					DC776CA82E1D8C4E007A8607 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DC776C8E2E1D8C4D007A8607;
+					};
+				};
+			};
+			buildConfigurationList = DC776C8A2E1D8C4D007A8607 /* Build configuration list for PBXProject "RustFfiExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC776C862E1D8C4D007A8607;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC776C902E1D8C4D007A8607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC776C8E2E1D8C4D007A8607 /* RustFfiExample */,
+				DC776C9E2E1D8C4E007A8607 /* RustFfiExampleTests */,
+				DC776CA82E1D8C4E007A8607 /* RustFfiExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC776C8D2E1D8C4D007A8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776C9D2E1D8C4E007A8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776CA72E1D8C4E007A8607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC776C8B2E1D8C4D007A8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776C9B2E1D8C4E007A8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC776CA52E1D8C4E007A8607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC776CA12E1D8C4E007A8607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC776C8E2E1D8C4D007A8607 /* RustFfiExample */;
+			targetProxy = DC776CA02E1D8C4E007A8607 /* PBXContainerItemProxy */;
+		};
+		DC776CAB2E1D8C4E007A8607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC776C8E2E1D8C4D007A8607 /* RustFfiExample */;
+			targetProxy = DC776CAA2E1D8C4E007A8607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC776CB12E1D8C4E007A8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC776CB22E1D8C4E007A8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC776CB42E1D8C4E007A8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RustFfiExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC776CB52E1D8C4E007A8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RustFfiExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC776CB72E1D8C4E007A8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustFfiExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RustFfiExample";
+			};
+			name = Debug;
+		};
+		DC776CB82E1D8C4E007A8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustFfiExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RustFfiExample";
+			};
+			name = Release;
+		};
+		DC776CBA2E1D8C4E007A8607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RustFfiExample;
+			};
+			name = Debug;
+		};
+		DC776CBB2E1D8C4E007A8607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VJ823MMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = black.bracken.ios.RustFfiExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RustFfiExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC776C8A2E1D8C4D007A8607 /* Build configuration list for PBXProject "RustFfiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC776CB12E1D8C4E007A8607 /* Debug */,
+				DC776CB22E1D8C4E007A8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC776CB32E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC776CB42E1D8C4E007A8607 /* Debug */,
+				DC776CB52E1D8C4E007A8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC776CB62E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC776CB72E1D8C4E007A8607 /* Debug */,
+				DC776CB82E1D8C4E007A8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC776CB92E1D8C4E007A8607 /* Build configuration list for PBXNativeTarget "RustFfiExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC776CBA2E1D8C4E007A8607 /* Debug */,
+				DC776CBB2E1D8C4E007A8607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC776C872E1D8C4D007A8607 /* Project object */;
+}
