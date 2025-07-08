@@ -12,6 +12,8 @@ graph TD
 $ cd randomizer
 $ make setup
 ```
+- Rust
+  - rustup 1.28.1
 - Android
   - Android NDK: ASのSDK Toolsから手動で
 - web

@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 jni = "0.21.1"
+wasm-bindgen = "0.2.100"
 
 [lib]
 # cf. https://doc.rust-lang.org/reference/linkage.html

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { gen_random_number } from "randomizer";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
@@ -11,6 +12,12 @@ export default function Home() {
       setInputValue(value);
     }
   };
+
+  const randomNumber = useMemo(() => {
+    if (inputValue === "") return "????";
+    const seed = parseInt(inputValue, 10);
+    return gen_random_number(seed);
+  }, [inputValue]);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 font-[family-name:var(--font-geist-sans)]">
@@ -23,7 +30,7 @@ export default function Home() {
           placeholder="seed (number)"
         />
         <p className="text-lg font-medium">
-          Generated Random Number: {inputValue || "????"}
+          Generated Random Number: {randomNumber}
         </p>
       </main>
     </div>
