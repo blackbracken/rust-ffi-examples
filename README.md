@@ -12,7 +12,10 @@ graph TD
 $ cd randomizer
 $ make setup
 ```
-Android NDKはASのSDK Toolsから手動で
+- Android
+  - Android NDK: ASのSDK Toolsから手動で
+- web
+  - pnpm + next
 
 ## dependencies
 - for Android
