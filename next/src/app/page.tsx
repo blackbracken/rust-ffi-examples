@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { gen_random_number } from "randomizer";
+import { genRandomNumber } from "randomizer";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
@@ -16,7 +16,7 @@ export default function Home() {
   const randomNumber = useMemo(() => {
     if (inputValue === "") return "????";
     const seed = parseInt(inputValue, 10);
-    return gen_random_number(seed);
+    return genRandomNumber(seed);
   }, [inputValue]);
 
   return (

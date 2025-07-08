@@ -14,13 +14,19 @@ pub extern "system" fn Java_black_bracken_rustffiexamples_android_Randomizer_gen
     _: JClass<'local>,
     seed: jint,
 ) -> jint {
-    let seed = seed as u32;
+    let seed = if seed < 0 { 0 } else { seed as u32 };
     gen_random_number(seed) as jint
 }
 
 // for wasm annotation
 #[wasm_bindgen]
-pub fn gen_random_number(seed: u32) -> u32 {
+pub fn genRandomNumber(seed: u32) -> u32 {
+    let random_value = gen_random_number(seed);
+    random_value 
+}
+
+fn gen_random_number(seed: u32) -> u32 {
     let mut rng = algorithms::mersenne_twister::MersenneTwister::new(seed);
-    rng.next_u32()
+    // 32-bit unsigned integerに収まるようマスク
+    rng.next_u32() & 0x7FFFFFFF
 }
